@@ -24,33 +24,9 @@ export default function Footer() {
   return (
     <footer className={classes.footer}>
       <Typography variant="body2" gutterBottom>
-        This Interface is only intended as a developmental tool. For more
-        information, visit the sites below:
+      Made with 💜 by Technoloader
       </Typography>
 
-      <Button
-        variant="outlined"
-        href="https://wormhole.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-        color="inherit"
-        className={classes.button}
-      >
-        {" "}
-        Wormhole
-      </Button>
-
-      <Button
-        variant="outlined"
-        href="https://github.com/anish-mukherjee"
-        target="_blank"
-        rel="noopener noreferrer"
-        color="inherit"
-        className={classes.button}
-      >
-        {" "}
-        Github
-      </Button>
     </footer>
   );
 }

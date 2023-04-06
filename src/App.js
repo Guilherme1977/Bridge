@@ -91,8 +91,7 @@ function App() {
         <AppBar position="static" elevation={0} style={{ marginBottom: 40 }}>
           <Toolbar variant="dense">
             <Typography>
-              Caution! You are using the {CLUSTER.toUpperCase()} build of this
-              app.
+        Here is the token Bridge on Testnet where you can swap any Token you Want :)
             </Typography>
             <div style={{ flexGrow: 1 }} />
             <Select
@@ -102,7 +101,7 @@ function App() {
               margin="dense"
             >
               <MenuItem value="testnet">Testnet</MenuItem>
-              <MenuItem value="devnet">Devnet</MenuItem>
+
             </Select>
           </Toolbar>
         </AppBar>
@@ -114,8 +113,7 @@ function App() {
             subtitle={
               <>
                 <Typography>
-                  This is a developmental token bridge that tests transfers
-                  across chains for tokens and NFTs wrapped by Wormhole.
+              Here is the token Bridge on Testnet where you can swap any Tokens you Want on any chain :)
                 </Typography>
               </>
             }
@@ -129,8 +127,6 @@ function App() {
             indicatorColor="primary"
           >
             <Tab label="Tokens" value="/transfer" />
-            <Tab label="NFTs" value="/nft" />
-            <Tab label="Redeem" value="/redeem" to="/redeem" />
           </Tabs>
         </Container>
       ) : null}
