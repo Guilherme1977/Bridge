@@ -23,11 +23,11 @@ export const METAMASK_CHAIN_PARAMETERS: {
     rpcUrls: ["https://rpc.ankr.com/eth_ropsten"],
     blockExplorerUrls: ["https://ropsten.etherscan.io"],
   },
-  5: {
-    chainId: "0x5",
-    chainName: "Görli",
-    nativeCurrency: { name: "Görli Ether", symbol: "GOR", decimals: 18 },
-    rpcUrls: ["https://rpc.ankr.com/eth_goerli"],
+  1: {
+    chainId: "0x1",
+    chainName: "Ethereum",
+    nativeCurrency: { name: " Ether", symbol: "ETH", decimals: 18 },
+    rpcUrls: ["https://mainnet.infura.io/v3/"],
     blockExplorerUrls: ["https://goerli.etherscan.io"],
   },
   97: {
